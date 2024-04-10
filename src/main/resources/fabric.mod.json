@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "davespacemod",
+	"version": "${version}",
+	"name": "DavesGalacticEmporium",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"SpaceDave"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT Licencse",
+	"icon": "assets/davespacemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spacedave.davegalactic.DavesGalacticEmporium"
+		],
+		"client": [
+			"spacedave.davegalactic.DavesGalacticEmporiumClient"
+		],
+		"fabric-datagen": [
+			"spacedave.davegalactic.DavesGalacticEmporiumDataGenerator"
+		]
+	},
+	"mixins": [
+		"davespacemod.mixins.json",
+		{
+			"config": "davespacemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

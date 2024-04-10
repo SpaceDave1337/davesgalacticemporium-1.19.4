@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "davespacemod:block/rocket_wall_block_end",
+    "side": "davespacemod:block/rocket_wall_block_side"
+  }
+}

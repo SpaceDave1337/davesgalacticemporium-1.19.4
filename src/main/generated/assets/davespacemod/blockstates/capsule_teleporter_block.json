@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davespacemod:block/capsule_teleporter_block"
+    }
+  }
+}

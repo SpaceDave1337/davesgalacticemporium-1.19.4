@@ -1,0 +1,11 @@
+{
+  "item.davespacemod.steel_ingot": "Steel Ingot",
+
+  "block.davespacemod.rocket_wall_block": "Rocket Interior Block",
+  "block.davespacemod.rocket_glass_block": "Rocket Interior Glass",
+  "block.davespacemod.capsule_teleporter_block": "Rocket Outside Door",
+  "block.davespacemod.rocket_hatch_teleporter_block": "Rocket Inside Door",
+  "block.davespacemod.glass_block": "Glass",
+  "block.davespacemod.mafic_rock_block": "Mafic Rock",
+  "block.davespacemod.regolith_block": "Regolith"
+}
